@@ -1,0 +1,116 @@
+
+
+@media only screen and (orientation: landscape) {
+    .playList{
+        float: left;
+        margin-left: 10px;
+       
+        color: #eeeeee;
+    }
+     .videoContainer{
+    float: left;
+    height: auto;
+    width: 60%;
+    margin-left: 10%;
+  
+  }
+  }
+
+@media only screen and (orientation: portrait) {
+    .playList{
+        margin-left: 10%;
+        color: #eeeeee;
+    }
+
+    .videoContainer{
+      height: auto;
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 20%;
+    }
+  }
+
+  .videoContainer{
+    position: relative;
+    background-color:#eeeeee;
+  }
+  
+.videoControls{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px;
+	opacity: 0;
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	-ms-transition: opacity .3s;
+	transition: opacity .3s;
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.13，white)
+	);
+}
+  .video{
+    width: 100%;
+    padding:5px;
+  }
+
+  #video-container:hover #video-controls {
+    opacity: .9;
+    
+  }
+
+  #play-list label:hover{
+    cursor:pointer;
+    color: rgb(126, 186, 226);
+  }
+
+  #play-list label:active{
+    color: rgb(126, 186, 226);
+  }
+  ul{
+    list-style-type:none;
+  }
+  
+  .container{
+    margin: 10%;
+  }
+ 
+
+  p{
+    align-content: right;
+  }
+
+  #header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+body{
+  background-image: url(resources/backgroud.jpg);
+  background-size:100% 100%;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg-login.png',sizingMethod='scale');
+  background-repeat:no-repeat;
+  min-height:100%;
+  position: relative;
+}
+footer {
+  background-color:black;
+  color:white;
+  clear:both;
+  text-align:center;
+  padding:5px; 
+  margin-bottom: 0%;
+  float:center;
+  bottom:0;width:100%;
+  position: absolute；
+}
+h4{
+  text-align: center;
+}
